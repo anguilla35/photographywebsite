@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frames Photography | Create Your Own</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Frames Photography</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">Gallery</a></li>
+        <li><a href="create.own.html" class="active">Create Your Own</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Create Your Own Session</h2>
+      <p>Build a photo package that fits what you need.</p>
+
+      <form action="#" method="post">
+        <label for="type">Session type</label>
+        <select id="type" name="type">
+          <option value="Lifestyle">Portrait</option>
+          <option value="Studio">Studio</option>
+        </select>
+
+        <label for="length">Session length</label>
+        <select id="length" name="length">
+          <option value="30">30 minutes</option>
+          <option value="60">1 hour</option>
+          <option value="120">2 hours</option>
+        </select>
+
+        <fieldset>
+          <legend>Add-ons</legend>
+          <label><input type="checkbox" name="addons" value="prints"> Extra time</label>
+          <label><input type="checkbox" name="addons" value="retouch"> Extra retouching</label>
+          <label><input type="checkbox" name="addons" value="rush"> Rush delivery</label>
+        </fieldset>
+
+        <label for="notes">Anything else I should know?</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+
+        <button type="submit" class="button">Request Session</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Frames Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
